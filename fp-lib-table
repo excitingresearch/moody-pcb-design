@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CC0402ZRY5V8BB104")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/CC0402ZRY5V8BB104/footprints.pretty")(options "")(descr ""))
+  (lib (name "xiao ESP32C3_PCBa")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Seeeduino xiao ESP32C3 KiCAD Library/xiao ESP32C3_PCB.pretty")(options "")(descr ""))
+  (lib (name "xiao ESP32C3_PCBb")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Seeeduino-XIAO-ESP32C3-KiCAD-Library/Seeeduino xiao ESP32C3 KiCAD Library/xiao ESP32C3_PCB.pretty")(options "")(descr ""))
+  (lib (name "ul_OS102011MA1QS1")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_OS102011MA1QS1/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_RC0402FR-0710KL")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_RC0402FR-0710KL/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_SM05B-SRSS-TB-LF-SN-")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM05B-SRSS-TB-LF-SN-/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_SM06B-SRSS-TB-LF-SN-")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM06B-SRSS-TB-LF-SN-/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "my_custom_footprint_library")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/my_custom_symbol_library/my_custom_footprint_library.pretty")(options "")(descr ""))
+)
