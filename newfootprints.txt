@@ -1,0 +1,23 @@
+CC0402ZRY5V8BB104
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/CC0402ZRY5V8BB104/2023-11-23_20-41-19.kicad_sym
+
+RC0402FR-0710KL
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/ul_RC0402FR-0710KL/KiCADv6/2023-11-23_19-25-58.kicad_sym
+
+MOUDLE-SEEEDUINO-XIAO-ESP32C3
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.kicad_sym
+
+SM06B-SRSS-TB
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/ul_SM06B-SRSS-TB-LF-SN-/KiCADv6/2023-11-23_19-51-30.kicad_sym
+
+OS102011MA1QS1
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/ul_OS102011MA1QS1/KiCADv6/2023-11-23_19-58-11.kicad_sym
+
+SM05B-SRSS-TB-LF-SN-
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/ul_SM05B-SRSS-TB-LF-SN-/KiCADv6/2023-11-23_21-58-41.kicad_sym
+
+my_custom_symbol_library
+C:/Users/jomiac/Documents/KiCad/7.0/symbols/my_custom_symbol_library.kicad_sym
+
+MOUDLE-SEEEDUINO-XIAO-ESP32C3-2
+F:/projects2023/ExcitingResearch/pcb-design/kicad-components/Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym
