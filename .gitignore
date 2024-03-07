@@ -1,2 +1,4 @@
 pcb-design-backups/
 pcb-design2-backups/
+/fp-info-cache
+/*.lck
