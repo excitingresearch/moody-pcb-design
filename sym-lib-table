@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2023-11-23_20-41-19")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/CC0402ZRY5V8BB104/2023-11-23_20-41-19.kicad_sym")(options "")(descr ""))
+  (lib (name "MOUDLE-SEEEDUINO-XIAO-ESP32C3a")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym")(options "")(descr ""))
+  (lib (name "MOUDLE-SEEEDUINO-XIAO-ESP32C3b")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Seeeduino-XIAO-ESP32C3-KiCAD-Library/Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-23_19-58-11")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_OS102011MA1QS1/KiCADv6/2023-11-23_19-58-11.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-23_19-25-58")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_RC0402FR-0710KL/KiCADv6/2023-11-23_19-25-58.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-23_21-58-41")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM05B-SRSS-TB-LF-SN-/KiCADv6/2023-11-23_21-58-41.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-23_19-51-30")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM06B-SRSS-TB-LF-SN-/KiCADv6/2023-11-23_19-51-30.kicad_sym")(options "")(descr ""))
+  (lib (name "my_custom_symbol_library")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/my_custom_symbol_library/my_custom_symbol_library.kicad_sym")(options "")(descr ""))
+)
