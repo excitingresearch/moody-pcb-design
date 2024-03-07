@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"YAG_CC0402_YAG";1;"CC0402ZRY5V8BB104";;;
+2;"U4";"MOUDLE14P-SMD-2.54-21X17.8MM";1;"MOUDLE-SEEEDUINO-XIAO-ESP32C3";;;
+3;"U2";"SWITCH_11MA1QS1";1;"OS102011MA1QS1";;;
+4;"R2,R1";"RC0402N_YAG";2;"RC0402FR-0710KL";;;
+5;"J2";"CONN_SM06B-SRSS-TB_JST";1;"SM06B-SRSS-TBLFSN";;;
+6;"U1";"battery-xiao-esp32c3";1;"~";;;
