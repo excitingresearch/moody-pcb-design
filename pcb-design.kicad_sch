@@ -767,7 +767,7 @@
 				)
 			)
 		)
-		(symbol "2023-11-23_21-58-41:SM05B-SRSS-TBLFSN"
+		(symbol "2024-04-08_19-38-15:SM04B-SRSS-TBLFSN"
 			(pin_names
 				(offset 0.254)
 			)
@@ -782,7 +782,7 @@
 					)
 				)
 			)
-			(property "Value" "SM05B-SRSS-TBLFSN"
+			(property "Value" "SM04B-SRSS-TBLFSN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -790,7 +790,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN5_SM05B-SRSS_JST"
+			(property "Footprint" "CONN_SM04B_JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -800,7 +800,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "SM05B-SRSS-TBLFSN"
+			(property "Datasheet" "SM04B-SRSS-TBLFSN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -827,7 +827,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SM05B-SRSS-TB(LF)(SN)"
+			(property "ki_keywords" "SM04B-SRSS-TB(LF)(SN)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -836,7 +836,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN5_SM05B-SRSS_JST"
+			(property "ki_fp_filters" "CONN_SM04B_JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -845,10 +845,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SM05B-SRSS-TBLFSN_1_1"
+			(symbol "SM04B-SRSS-TBLFSN_1_1"
 				(polyline
 					(pts
-						(xy 5.08 -12.7) (xy 12.7 -12.7)
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -860,43 +860,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.16) (xy 8.89 -11.0067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.16) (xy 8.89 -9.3133)
+						(xy 5.08 2.54) (xy 5.08 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1052,7 +1016,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 12.7 2.54)
+						(xy 12.7 -10.16) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -1146,29 +1110,11 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "SM05B-SRSS-TBLFSN_1_2"
+			(symbol "SM04B-SRSS-TBLFSN_1_2"
 				(polyline
 					(pts
-						(xy 5.08 -12.7) (xy 12.7 -12.7)
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1180,43 +1126,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -11.0067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -9.3133)
+						(xy 5.08 2.54) (xy 5.08 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1372,7 +1282,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 12.7 2.54)
+						(xy 12.7 -10.16) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -1459,24 +1369,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2526,6 +2418,18 @@
 		(uuid "29d3f45a-45db-4f26-b81a-e630bf64383b")
 	)
 	(junction
+		(at 187.96 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f6a70e-332f-4087-b5bb-cb3035f37efd")
+	)
+	(junction
+		(at 226.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "704a352f-011c-45ba-942d-63cd8da4375e")
+	)
+	(junction
 		(at 226.06 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2552,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "0053db45-6d6a-409f-9ad7-99d6e825eba3")
+	)
+	(wire
+		(pts
+			(xy 187.96 31.75) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018ba71a-e717-4e29-ad63-8519caa4f9ef")
 	)
 	(wire
 		(pts
@@ -2585,7 +2499,27 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 191.77 90.17)
+			(xy 157.48 46.99) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a236c75-4dec-4cb8-9817-fb23d3ed3b28")
+	)
+	(wire
+		(pts
+			(xy 187.96 31.75) (xy 187.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b83c9a3-f037-43cf-9163-2e3eb1919883")
+	)
+	(wire
+		(pts
+			(xy 185.42 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2635,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 88.9) (xy 205.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d0a683-a2b2-4fa8-b987-dbbc8197fb18")
+	)
+	(wire
+		(pts
 			(xy 217.17 107.95) (xy 217.17 137.16)
 		)
 		(stroke
@@ -2642,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "482f79ca-ce6f-4c2b-bb80-3d03a374fe6b")
+	)
+	(wire
+		(pts
+			(xy 157.48 46.99) (xy 157.48 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de85888-f7b5-44ae-8cdb-15991efcbd49")
 	)
 	(wire
 		(pts
@@ -2695,6 +2649,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 90.17) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689ffe39-f6dc-4c2b-945a-21a21bafafd9")
+	)
+	(wire
+		(pts
 			(xy 48.26 53.34) (xy 74.93 53.34)
 		)
 		(stroke
@@ -2725,17 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 82.55) (xy 185.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a43614d-eedf-431e-ba3e-c2bdb3962c03")
-	)
-	(wire
-		(pts
-			(xy 195.58 91.44) (xy 236.22 91.44)
+			(xy 200.66 91.44) (xy 236.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2765,6 +2719,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 31.75) (xy 226.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4678e6-91ea-48ec-85e7-537ef2d5f6a9")
+	)
+	(wire
+		(pts
 			(xy 236.22 93.98) (xy 226.06 93.98)
 		)
 		(stroke
@@ -2785,13 +2749,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 88.9) (xy 191.77 88.9)
+			(xy 236.22 88.9) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aaeb7d9e-41bc-4c70-a062-f47bc9485946")
+		(uuid "a4c001bf-d2a3-4ef1-91c3-0f24e44a0f5b")
 	)
 	(wire
 		(pts
@@ -2815,17 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 199.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65c7afb-cfa4-4e66-9546-1277721da7f3")
-	)
-	(wire
-		(pts
-			(xy 195.58 86.36) (xy 185.42 86.36)
+			(xy 200.66 86.36) (xy 185.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2855,13 +2809,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 86.36) (xy 199.39 86.36)
+			(xy 205.74 40.64) (xy 187.96 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbf54536-a113-4056-a8cc-e52eab1393be")
+		(uuid "bf031d3c-87ed-442e-9a64-1f596481d3c2")
+	)
+	(wire
+		(pts
+			(xy 226.06 31.75) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c38a0d-43a2-41cb-9ed1-e508c9dc91af")
 	)
 	(wire
 		(pts
@@ -2905,23 +2869,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 88.9) (xy 191.77 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7fbc010-d733-498a-9490-d24fb6f9483e")
-	)
-	(wire
-		(pts
-			(xy 195.58 91.44) (xy 195.58 86.36)
+			(xy 200.66 91.44) (xy 200.66 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f885efde-5e7a-4fcc-aafd-687f0611d3b5")
+	)
+	(wire
+		(pts
+			(xy 170.18 31.75) (xy 187.96 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faca9de2-fc09-4aba-aec1-48168ade7add")
 	)
 	(wire
 		(pts
@@ -2934,35 +2898,33 @@
 		(uuid "fb2631eb-8858-4bc4-8a76-6b3fc00a3777")
 	)
 	(symbol
-		(lib_id "2023-11-23_21-58-41:SM05B-SRSS-TBLFSN")
-		(at 236.22 86.36 0)
+		(lib_id "2023-11-23_19-25-58:RC0402FR-0710KL")
+		(at 157.48 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "068a73c6-a1db-454f-98b0-44519eacf705")
-		(property "Reference" "J1"
-			(at 250.19 90.1699 0)
+		(uuid "405d7a46-c981-4a1e-861a-93195fc2585a")
+		(property "Reference" "R3"
+			(at 163.83 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SM05B-SRSS-TBLFSN"
-			(at 250.19 92.7099 0)
+		(property "Value" "RC0402FR-0710KL"
+			(at 163.83 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "CONN5_SM05B-SRSS_JST"
-			(at 236.22 86.36 0)
+		(property "Footprint" "RC0402N_YAG"
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,8 +2933,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SM05B-SRSS-TBLFSN"
-			(at 236.22 86.36 0)
+		(property "Datasheet" "RC0402FR-0710KL"
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 86.36 0)
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,25 +2952,16 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "26f0cc34-5852-4b3a-953e-46dc6b84f751")
+		(pin "2"
+			(uuid "2c823585-4b38-45bd-858c-7c9dc2432b0c")
 		)
 		(pin "1"
-			(uuid "fac22641-cddc-4058-8a8a-289a1809ad82")
-		)
-		(pin "4"
-			(uuid "5932fb8b-ebfe-43d1-afdf-8e1f23c32b5c")
-		)
-		(pin "5"
-			(uuid "e0236f9b-9812-4e86-8307-5b2bc32339c6")
-		)
-		(pin "2"
-			(uuid "8c8532eb-2e02-4dd0-8fd1-4e3b13ad0669")
+			(uuid "45fd9a77-b95b-44ef-9b8a-d6e63386df24")
 		)
 		(instances
 			(project "pcb-design"
 				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
-					(reference "J1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3114,6 +3067,77 @@
 			(project "pcb-design"
 				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0402FR-0710KL_1")
+		(lib_id "2023-11-23_19-25-58:RC0402FR-0710KL")
+		(at 200.66 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a1281bc-4d86-4638-8f19-38b794139052")
+		(property "Reference" "R4"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-0710KL"
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RC0402N_YAG"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RC0402FR-0710KL"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "918dae07-ecbf-4265-92d2-8c3f442311fe")
+		)
+		(pin "2"
+			(uuid "802bf3c2-a974-44a3-af1f-7fa62117c44b")
+		)
+		(instances
+			(project "pcb-design"
+				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3323,6 +3347,84 @@
 			(project "pcb-design"
 				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-04-08_19-38-15:SM04B-SRSS-TBLFSN")
+		(at 236.22 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be0a2994-06f9-4399-8335-98a8f2abba8c")
+		(property "Reference" "J2"
+			(at 250.19 91.4399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM04B-SRSS-TBLFSN"
+			(at 250.19 93.9799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SM04B-SRSS-TBLFSN"
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15448459-9ece-4149-98e8-6341e4dd9bb6")
+		)
+		(pin "3"
+			(uuid "3bf8614f-4052-4759-8743-4ae2dc12f980")
+		)
+		(pin "1"
+			(uuid "6b219568-18af-4082-9405-59a37c13dab9")
+		)
+		(pin "4"
+			(uuid "1929023f-89be-407e-aa8c-6f23df0aca45")
+		)
+		(instances
+			(project "pcb-design"
+				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
+					(reference "J2")
 					(unit 1)
 				)
 			)
