@@ -10,4 +10,5 @@
   (lib (name "my_custom_symbol_library")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/my_custom_symbol_library/my_custom_symbol_library.kicad_sym")(options "")(descr ""))
   (lib (name "2024-04-08_19-38-15")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM04B-SRSS-TB-LF-SN-/KiCADv6/2024-04-08_19-38-15.kicad_sym")(options "")(descr ""))
   (lib (name "2024-04-09_19-22-22")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_AOSS32338C/KiCADv6/2024-04-09_19-22-22.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-04-11_18-56-32")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/RC0402JR_07560RL/KiCADv6/2024-04-11_18-56-32.kicad_sym")(options "")(descr ""))
 )
