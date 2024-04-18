@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 8)
+    (start_pass_no 2160)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -29,8 +29,9 @@
     (width 250.0)
     (clearance 200.0)
     (clearance 125.0 (type smd_to_turn_gap))
-    (clearance 50.0 (type smd))
+    (clearance 200.0 (type smd))
     (clearance 200.0 (type "kicad_default"))
+    (clearance 200.0 (type kicad))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -65,8 +66,8 @@
   )
   (class "kicad_default"
     "unconnected-(U4-PB08_A6_D6_TX-Pad7)" "unconnected-(U4-PB09_A7_D7_RX-Pad8)" "unconnected-(U4-PA8_A4_D4_SDA-Pad5)" "unconnected-(U4-PA9_A5_D5_SCL-Pad6)" "/esp-gnd" "Net-(U4-PA10_A2_D2)" /B+ /D8
-    "unconnected-(U4-PA11_A3_D3-Pad4)" "/esp-3.3" "unconnected-(U4-5V-Pad14)" /G /D10 "Net-(Q2-B)" "/SW-OUT" "unconnected-(U4-PA4_A1_D1-Pad2)"
-    "unconnected-(U4-PA5_A9_D9_MISO-Pad10)" "unconnected-(U1---Pad2)"
+    "unconnected-(U4-PA11_A3_D3-Pad4)" "/esp-3.3" "unconnected-(U4-5V-Pad14)" /G /D10 /D0 "/SW-OUT" "unconnected-(U4-PA4_A1_D1-Pad2)"
+    "unconnected-(U4-PA5_A9_D9_MISO-Pad10)" "/B-" /3.3v /GND /Licht /Temp "unconnected-(D2-DOUT-Pad4)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule

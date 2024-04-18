@@ -1,4 +1,4 @@
-23145519565431590
+23152373449727567
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -356,6 +356,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Breakout_Connector
+Breakout_conn
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+4
+4
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -30477,6 +30484,13 @@ Surface mounted pin header SMD 2x40 1.00mm double row
 0
 80
 80
+Connector_PinHeader_1.5mm
+PinHeader_1x03_P1.5mm_Vertical
+Through hole straight pin header, 1x03, 1.27mm pitch, single row
+Through hole pin header THT 1x03 1.27mm single row
+0
+3
+3
 Connector_PinHeader_1.27mm
 PinHeader_1x01_P1.27mm_Horizontal
 Through hole angled pin header, 1x01, 1.27mm pitch, 4.0mm pin length, single row
@@ -66079,6 +66093,20 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+Mouse-bite
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+Mouse-bite
+mouse-bite-2mm-slot-langer
+
+
+0
+0
+0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

@@ -8,4 +8,6 @@
   (lib (name "ul_SM05B-SRSS-TB-LF-SN-")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM05B-SRSS-TB-LF-SN-/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ul_SM06B-SRSS-TB-LF-SN-")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/ul_SM06B-SRSS-TB-LF-SN-/KiCADv6/footprints.pretty")(options "")(descr "")(disabled))
   (lib (name "my_custom_footprint_library")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/my_custom_symbol_library/my_custom_footprint_library.pretty")(options "")(descr ""))
+  (lib (name "Breakout_Connector")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/breakout-conn/Breakout_Connector.pretty")(options "")(descr ""))
+  (lib (name "Connector_PinHeader_1.5mm")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Connector_PinHeader_1.5mm/Connector_PinHeader_1.5mm.pretty")(options "")(descr ""))
 )

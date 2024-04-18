@@ -3141,247 +3141,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NPN_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "my_custom_symbol_library:pcb-battery-connector"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3431,6 +3190,102 @@
 				)
 			)
 			(symbol "pcb-battery-connector_1_1"
+				(text "battery"
+					(at 8.89 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pcb-battery-connector_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 13.97 0.6351 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "pcb-battery-connector_1_1_1"
 				(text "battery"
 					(at 8.89 0 0)
 					(effects
@@ -3590,6 +3445,17 @@
 		)
 		(uuid "f03dd54c-bb04-4c2b-aac6-9dd4956dcb16")
 	)
+	(label "Temp"
+		(at 245.11 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05bb9a4e-65ed-48cf-a6d3-bf98953ae769")
+	)
 	(label "esp-gnd"
 		(at 154.94 78.74 0)
 		(fields_autoplaced yes)
@@ -3600,6 +3466,28 @@
 			(justify left bottom)
 		)
 		(uuid "08f72cfc-a9e7-4977-98ed-29ce0b649c62")
+	)
+	(label "3.3v"
+		(at 245.11 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fdfd449-ff1e-45f3-849d-3587d5585104")
+	)
+	(label "Temp"
+		(at 228.6 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "108e8e55-a567-446e-aed6-90422309d1d5")
 	)
 	(label "esp-gnd"
 		(at 82.55 53.34 0)
@@ -3623,6 +3511,17 @@
 		)
 		(uuid "163db1ad-e469-4bee-8a0f-5fd7642e1486")
 	)
+	(label "Licht"
+		(at 245.11 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2132fccd-3f6d-48d6-8d66-3f8bcdf1c4e7")
+	)
 	(label "D10"
 		(at 236.22 91.44 180)
 		(fields_autoplaced yes)
@@ -3633,6 +3532,39 @@
 			(justify right bottom)
 		)
 		(uuid "2e88d9cb-2091-4c16-b7fa-80cbf663f5c9")
+	)
+	(label "B+"
+		(at 134.62 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d8cb5db-d7f8-47fd-9c24-436102bf53c8")
+	)
+	(label "B-"
+		(at 226.06 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4db06ac8-e4c7-425a-b632-69c2f7b8ab9d")
+	)
+	(label "SW-OUT"
+		(at 172.72 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "569c11e8-3e1c-4480-bd9d-126e3ea9374d")
 	)
 	(label "esp-gnd"
 		(at 71.12 30.48 180)
@@ -3667,6 +3599,17 @@
 		)
 		(uuid "6dcce1b6-2f75-4c00-a55a-98a4430936c3")
 	)
+	(label "Licht"
+		(at 166.37 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "706820a6-cf65-49a3-868c-e500355ff4a2")
+	)
 	(label "B+"
 		(at 226.06 124.46 180)
 		(fields_autoplaced yes)
@@ -3677,6 +3620,17 @@
 			(justify right bottom)
 		)
 		(uuid "7d26e56b-9a8d-4ba4-aa68-0fcda5c58147")
+	)
+	(label "GND"
+		(at 173.99 40.64 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e49b47e-2e38-46c0-8a31-75d89e5e6bbe")
 	)
 	(label "esp-3.3"
 		(at 154.94 82.55 0)
@@ -3700,18 +3654,7 @@
 		)
 		(uuid "a604c96a-f097-4a7e-b8c8-29cc9dfd3ac7")
 	)
-	(label "esp-gnd"
-		(at 165.1 121.92 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9dcf021-f468-4e6c-8653-df81ba2bba03")
-	)
-	(label "esp-3.3"
+	(label "SW-OUT"
 		(at 236.22 96.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3744,7 +3687,7 @@
 		)
 		(uuid "b2342325-d20d-480b-9c55-e0d794c93fef")
 	)
-	(label "SW-OUT"
+	(label "D0"
 		(at 105.41 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3766,8 +3709,8 @@
 		)
 		(uuid "c3e39cc3-359d-40bc-916e-863629c267ff")
 	)
-	(label "G"
-		(at 165.1 132.08 270)
+	(label "GND"
+		(at 218.44 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3775,7 +3718,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d3f432db-afc6-4b04-b6d4-9173bb41d652")
+		(uuid "c90584c1-f6c7-4dfb-8926-557cdcf90130")
+	)
+	(label "GND"
+		(at 245.11 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc08fbb4-b1ef-4b06-a0b4-b353855ebe34")
+	)
+	(label "3.3v"
+		(at 173.99 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccd8fb8d-4c58-40ec-b8d0-cb459c9254e5")
 	)
 	(label "D8"
 		(at 236.22 88.9 180)
@@ -3788,7 +3753,18 @@
 		)
 		(uuid "d742d93a-24fb-49b0-a802-6a609e472916")
 	)
-	(label "SW-OUT"
+	(label "3.3v"
+		(at 218.44 19.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0051f1f-74d2-4a70-9306-22d29f1a9a43")
+	)
+	(label "D0"
 		(at 193.04 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3798,6 +3774,88 @@
 			(justify left bottom)
 		)
 		(uuid "ec6366c4-174c-42b4-8be3-159d40699ecc")
+	)
+	(label "B-"
+		(at 134.62 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd1b10d8-373e-4224-9d8f-db7c3d332582")
+	)
+	(symbol
+		(lib_name "pcb-battery-connector_1")
+		(lib_id "my_custom_symbol_library:pcb-battery-connector")
+		(at 134.62 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d764484-2072-41ae-a59b-ed03de4e0700")
+		(property "Reference" "U5"
+			(at 148.59 140.3349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d555bb67-0ae3-4179-a47c-0d55779e2856")
+		)
+		(pin "1"
+			(uuid "5265142f-a302-43c4-9c15-b038cec4420e")
+		)
+		(instances
+			(project "pcb-design"
+				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MOUDLE-SEEEDUINO-XIAO-ESP32C3-2:MOUDLE-SEEEDUINO-XIAO-ESP32C3")
@@ -4336,7 +4394,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:TSIC206-TO92")
-		(at 223.52 30.48 0)
+		(at 218.44 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4345,7 +4403,7 @@
 		(fields_autoplaced yes)
 		(uuid "da7ff419-25d5-481a-ab2e-2d9644e16991")
 		(property "Reference" "U3"
-			(at 214.63 29.2099 0)
+			(at 209.55 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4412,7 @@
 			)
 		)
 		(property "Value" "TSIC206-TO92"
-			(at 214.63 31.7499 0)
+			(at 209.55 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,8 +4420,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 214.63 26.67 0)
+		(property "Footprint" "Connector_PinHeader_1.5mm:PinHeader_1x03_P1.5mm_Vertical"
+			(at 209.55 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4431,7 @@
 			)
 		)
 		(property "Datasheet" "https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf"
-			(at 223.52 30.48 0)
+			(at 218.44 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4440,7 @@
 			)
 		)
 		(property "Description" "Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, TO-92"
-			(at 223.52 30.48 0)
+			(at 218.44 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4538,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 219.71 49.53 0)
+		(at 173.99 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4489,7 +4547,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee71b075-1fff-4c86-9141-a77b4ab7b812")
 		(property "Reference" "D2"
-			(at 229.87 43.2114 0)
+			(at 184.15 26.7014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4555,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 229.87 45.7514 0)
+			(at 184.15 29.2414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4563,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
-			(at 220.98 57.15 0)
+			(at 175.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 222.25 59.055 0)
+			(at 176.53 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4583,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 219.71 49.53 0)
+			(at 173.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,80 +4613,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 167.64 127 180)
+		(lib_id "2024-04-08_19-38-15:SM04B-SRSS-TBLFSN")
+		(at 245.11 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9a289cc-eaad-4f88-943b-9ac5dd3d04f9")
-		(property "Reference" "Q2"
-			(at 162.56 125.7299 0)
+		(uuid "fffedd9b-3277-4583-bee3-5ae398748318")
+		(property "Reference" "J1"
+			(at 259.08 25.3999 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 162.56 128.2699 0)
+		(property "Value" "SM04B-SRSS-TBLFSN"
+			(at 259.08 27.9399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 104.14 127 0)
+		(property "Footprint" "Breakout_Connector:Breakout_conn"
+			(at 245.11 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 104.14 127 0)
+		(property "Datasheet" "SM04B-SRSS-TBLFSN"
+			(at 245.11 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 167.64 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 167.64 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 167.64 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 167.64 127 0)
+		(property "Description" ""
+			(at 245.11 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,18 +4670,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "b87a4016-7827-4f5e-81c9-5d7948c1289d")
-		)
-		(pin "1"
-			(uuid "2e245f8b-4000-476a-a35d-e4491f3dca9d")
+			(uuid "afeff085-4221-463d-9923-ee1f6b8ecf6f")
 		)
 		(pin "3"
-			(uuid "e5cc0532-d0f0-471f-af2f-b12c637b3653")
+			(uuid "e929b01b-f0e6-415e-bad7-2eb17e454bec")
+		)
+		(pin "1"
+			(uuid "a61c0ea2-d91b-4b30-bcf4-d3eee10ea4da")
+		)
+		(pin "4"
+			(uuid "64361e15-f43e-4413-b511-37ba0509f1e9")
 		)
 		(instances
 			(project "pcb-design"
 				(path "/5f569c9b-d86b-422c-aa8b-ae82a353c125"
-					(reference "Q2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
