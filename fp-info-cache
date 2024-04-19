@@ -1,4 +1,4 @@
-23152373449727567
+23154087005542589
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94786,6 +94786,13 @@ Varistor VF
 0
 2
 2
+mouse-bite-longer
+mouse-bite-2mm-slot-langer
+
+
+0
+0
+0
 my_custom_footprint_library
 battery+&-
 

@@ -10,4 +10,5 @@
   (lib (name "my_custom_footprint_library")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/my_custom_symbol_library/my_custom_footprint_library.pretty")(options "")(descr ""))
   (lib (name "Breakout_Connector")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/breakout-conn/Breakout_Connector.pretty")(options "")(descr ""))
   (lib (name "Connector_PinHeader_1.5mm")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Connector_PinHeader_1.5mm/Connector_PinHeader_1.5mm.pretty")(options "")(descr ""))
+  (lib (name "mouse-bite-longer")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/Connector_PinHeader_1.5mm/mouse-bite-longer/mouse-bite-longer.pretty")(options "")(descr ""))
 )
