@@ -1,0 +1,584 @@
+## Footprint report - date 2024-04-25T20:51:48+0200
+## Created by KiCad version 8.0.1
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner  0.668338  0.000337
+lower_right_corner 297.001662 209.211664
+$EndBOARD
+
+$MODULE C1
+footprint CC0402ZRY5V8BB104:YAG_CC0402_YAG
+attribut smd
+position 152.646000 124.433000  orientation -90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.546100  0.000000  size  0.660400  0.558800  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.546100  0.000000  size  0.660400  0.558800  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C1
+
+$MODULE D2
+footprint LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm
+attribut smd
+position 144.696000 112.283000  orientation 0.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -1.640000 -0.890000  size  1.500000  0.800000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position -1.640000  0.890000  size  1.500000  0.800000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Roundrect Layer front
+position  1.640000  0.890000  size  1.500000  0.800000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Roundrect Layer front
+position  1.640000 -0.890000  size  1.500000  0.800000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D2
+
+$MODULE J1
+footprint Breakout_Connector:Breakout_conn
+attribut smd
+position 144.596000 117.233000  orientation 0.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -1.500000 -1.750000  size  0.600000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position -0.500000 -1.750000  size  0.600000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Roundrect Layer front
+position  0.500000 -1.750000  size  0.600000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Roundrect Layer front
+position  1.500000 -1.750000  size  0.600000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE J2
+footprint Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+attribut smd
+position 143.096000 123.354000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -1.500000 -2.000000  size  0.600000  1.550000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position -0.500000 -2.000000  size  0.600000  1.550000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Roundrect Layer front
+position  0.500000 -2.000000  size  0.600000  1.550000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Roundrect Layer front
+position  1.500000 -2.000000  size  0.600000  1.550000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "MP"
+Shape Roundrect Layer front
+position -2.800000  1.875000  size  1.200000  1.800000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "MP"
+Shape Roundrect Layer front
+position  2.800000  1.875000  size  1.200000  1.800000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 151.796000 134.908000  orientation 90.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 149.921000 134.808000  orientation 90.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 148.046000 134.833000  orientation 90.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 148.046000 136.333000  orientation 90.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.000000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 148.796000 137.083000  orientation 0.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position  0.000000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 150.196000 137.408000  orientation 0.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.000000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint drillholes:mouse-bite-2mm-slot-langer
+attribut none
+position 151.696000 137.383000  orientation 0.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.000000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE mouse-bite-2mm-slot
+footprint Mouse-bite:mouse-bite-2mm-slot-langer
+attribut none
+position 142.996000 117.783000  orientation 0.00
+layer front
+$PAD ""
+Shape Circle Layer both
+position -0.750000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position -0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.000000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.000000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.750000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  0.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  1.500000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  1.500000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  2.250000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  2.250000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  3.000000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  3.000000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  3.750000 -0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer both
+position  3.750000  0.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  mouse-bite-2mm-slot
+
+$MODULE R1
+footprint ul_RC0402FR-0710KL:RC0402N_YAG
+attribut smd
+position 148.896000 123.683000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.556000  0.000000  size  0.654800  0.508000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.556000  0.000000  size  0.654800  0.508000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE R2
+footprint ul_RC0402FR-0710KL:RC0402N_YAG
+attribut smd
+position 148.996000 125.983000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.556000  0.000000  size  0.654800  0.508000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.556000  0.000000  size  0.654800  0.508000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE R3
+footprint ul_RC0402FR-0710KL:RC0402N_YAG
+attribut smd
+position 151.496000 127.983000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.556000  0.000000  size  0.654800  0.508000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.556000  0.000000  size  0.654800  0.508000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE U1
+footprint my_custom_footprint_library:battery-xiao-esp32c3
+attribut smd
+position 151.775000 136.259500  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position -0.725000  1.975000  size  1.450000  1.010000  orientation 360.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer both
+position -0.750000  0.240000  size  1.500000  0.990000  orientation 360.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U1
+
+$MODULE U2
+footprint ul_OS102011MA1QS1:SWITCH_11MA1QS1
+attribut none
+position 157.096000 126.691000  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.320800  1.320800  orientation 0.00
+drill  0.812800
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  2.000001  0.000000  size  1.320800  1.320800  orientation 0.00
+drill  0.812800
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  4.000002  0.000000  size  1.320800  1.320800  orientation 0.00
+drill  0.812800
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position -2.102099  0.000000  size  2.006600  2.006600  orientation 0.00
+drill  1.498600
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position  6.102101  0.000000  size  2.006600  2.006600  orientation 0.00
+drill  1.498600
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U2
+
+$MODULE U3
+footprint Connector_PinHeader_1.5mm:PinHeader_1x03_P1.5mm_Vertical
+attribut none
+position 145.896000 108.683000  orientation -90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 360.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  1.500000  size  1.000000  1.000000  orientation 360.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  3.000000  size  1.000000  1.000000  orientation 360.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U3
+
+$MODULE U4
+footprint xiao ESP32C3_PCBa:MOUDLE14P-SMD-2.54-21X17.8MM
+attribut none
+position 138.880000 131.165500  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position  0.835000 -18.120000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  0.835000 -15.580000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Roundrect Layer front
+position  0.835000 -13.040000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Roundrect Layer front
+position  0.835000 -10.500000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Roundrect Layer front
+position  0.835000 -7.960000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Roundrect Layer front
+position  0.835000 -5.420000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Roundrect Layer front
+position  0.835000 -2.880000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Roundrect Layer front
+position 17.000000 -2.880000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Roundrect Layer front
+position 17.000000 -5.420000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Roundrect Layer front
+position 17.000000 -7.960000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Roundrect Layer front
+position 17.000000 -10.500000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Roundrect Layer front
+position 17.000000 -13.040000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Roundrect Layer front
+position 17.000000 -15.580000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Roundrect Layer front
+position 17.000000 -18.120000  size  2.750000  2.000000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U4
+
+$MODULE U5
+footprint TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+attribut virtual
+position 149.508000 121.252000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  2.540000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U5
+
+$EndDESCRIPTION
