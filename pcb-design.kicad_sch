@@ -3445,6 +3445,17 @@
 		)
 		(uuid "f03dd54c-bb04-4c2b-aac6-9dd4956dcb16")
 	)
+	(label "Licht"
+		(at 173.99 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02a7cfd3-bdef-470c-b2a1-71306985104c")
+	)
 	(label "Temp"
 		(at 245.11 22.86 180)
 		(fields_autoplaced yes)
@@ -3466,28 +3477,6 @@
 			(justify left bottom)
 		)
 		(uuid "08f72cfc-a9e7-4977-98ed-29ce0b649c62")
-	)
-	(label "3.3v"
-		(at 245.11 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0fdfd449-ff1e-45f3-849d-3587d5585104")
-	)
-	(label "Temp"
-		(at 228.6 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "108e8e55-a567-446e-aed6-90422309d1d5")
 	)
 	(label "esp-gnd"
 		(at 82.55 53.34 0)
@@ -3521,6 +3510,17 @@
 			(justify right bottom)
 		)
 		(uuid "2132fccd-3f6d-48d6-8d66-3f8bcdf1c4e7")
+	)
+	(label "G"
+		(at 245.11 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2574cfad-a89c-43dd-865b-53c6f312f132")
 	)
 	(label "D10"
 		(at 236.22 91.44 180)
@@ -3566,6 +3566,28 @@
 		)
 		(uuid "569c11e8-3e1c-4480-bd9d-126e3ea9374d")
 	)
+	(label "3.3V"
+		(at 228.6 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5933e461-81b4-4f8f-9f42-004373468b6a")
+	)
+	(label "Temp"
+		(at 218.44 19.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a03c15a-1ec3-4140-aa74-c0ee728ab5a3")
+	)
 	(label "esp-gnd"
 		(at 71.12 30.48 180)
 		(fields_autoplaced yes)
@@ -3599,17 +3621,6 @@
 		)
 		(uuid "6dcce1b6-2f75-4c00-a55a-98a4430936c3")
 	)
-	(label "Licht"
-		(at 166.37 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "706820a6-cf65-49a3-868c-e500355ff4a2")
-	)
 	(label "B+"
 		(at 226.06 124.46 180)
 		(fields_autoplaced yes)
@@ -3621,8 +3632,8 @@
 		)
 		(uuid "7d26e56b-9a8d-4ba4-aa68-0fcda5c58147")
 	)
-	(label "GND"
-		(at 173.99 40.64 270)
+	(label "G"
+		(at 166.37 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3630,7 +3641,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7e49b47e-2e38-46c0-8a31-75d89e5e6bbe")
+		(uuid "8ffecc46-d0c7-419f-a5cf-83a9a1cde06d")
 	)
 	(label "esp-3.3"
 		(at 154.94 82.55 0)
@@ -3654,6 +3665,17 @@
 		)
 		(uuid "a604c96a-f097-4a7e-b8c8-29cc9dfd3ac7")
 	)
+	(label "3.3V"
+		(at 245.11 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6dd1c9e-5ee0-43f5-bd9c-f5cdabf7e9b5")
+	)
 	(label "SW-OUT"
 		(at 236.22 96.52 180)
 		(fields_autoplaced yes)
@@ -3664,17 +3686,6 @@
 			(justify right bottom)
 		)
 		(uuid "aba3b991-a056-4deb-851b-92bd08b15735")
-	)
-	(label "G"
-		(at 236.22 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1db6377-bf5c-4bb4-b8d7-4a5a31da7cfe")
 	)
 	(label "esp-gnd"
 		(at 95.25 142.24 0)
@@ -3709,7 +3720,7 @@
 		)
 		(uuid "c3e39cc3-359d-40bc-916e-863629c267ff")
 	)
-	(label "GND"
+	(label "G"
 		(at 218.44 34.29 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3719,28 +3730,6 @@
 			(justify right bottom)
 		)
 		(uuid "c90584c1-f6c7-4dfb-8926-557cdcf90130")
-	)
-	(label "GND"
-		(at 245.11 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc08fbb4-b1ef-4b06-a0b4-b353855ebe34")
-	)
-	(label "3.3v"
-		(at 173.99 25.4 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccd8fb8d-4c58-40ec-b8d0-cb459c9254e5")
 	)
 	(label "D8"
 		(at 236.22 88.9 180)
@@ -3753,16 +3742,16 @@
 		)
 		(uuid "d742d93a-24fb-49b0-a802-6a609e472916")
 	)
-	(label "3.3v"
-		(at 218.44 19.05 90)
+	(label "esp-gnd"
+		(at 236.22 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e0051f1f-74d2-4a70-9306-22d29f1a9a43")
+		(uuid "ead83223-6d72-418f-8730-9994980bd457")
 	)
 	(label "D0"
 		(at 193.04 127 0)
@@ -3774,6 +3763,17 @@
 			(justify left bottom)
 		)
 		(uuid "ec6366c4-174c-42b4-8be3-159d40699ecc")
+	)
+	(label "3.3V"
+		(at 181.61 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcd708b6-4747-4182-954a-1a509c75895f")
 	)
 	(label "B-"
 		(at 134.62 143.51 180)

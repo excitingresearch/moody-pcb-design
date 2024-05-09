@@ -1,0 +1,18 @@
+### Footprint positions - created on 2024-04-25T21:50:02+0200 ###
+### Printed by KiCad version 8.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref                Val                            Package                                                PosX       PosY       Rot  Side
+C1                   CC0402ZRY5V8BB104              YAG_CC0402_YAG                                     152.6460  -124.4330  -90.0000  top
+D2                   SK6812                         LED_WS2812B-Mini_PLCC4_3.5x3.5mm                   144.6960  -112.2830    0.0000  top
+J1                   SM04B-SRSS-TBLFSN              Breakout_conn                                      144.5960  -117.2330    0.0000  top
+J2                   SM04B-SRSS-TBLFSN              JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal   143.0960  -123.3540  -90.0000  top
+R1                   RC0402FR-0710KL                RC0402N_YAG                                        148.8960  -123.6830    0.0000  top
+R2                   RC0402FR-0710KL                RC0402N_YAG                                        148.9960  -125.9830    0.0000  top
+R3                   RC0402JR-07560RL               RC0402N_YAG                                        151.4960  -127.9830  180.0000  top
+U1                   ~                              battery-xiao-esp32c3                               151.7750  -136.2595  -90.0000  top
+U2                   OS102011MA1QS1                 SWITCH_11MA1QS1                                    157.0960  -126.6910   90.0000  top
+U3                   TSIC206-TO92                   PinHeader_1x03_P1.5mm_Vertical                     145.8960  -108.6830  -90.0000  top
+U4                   MOUDLE-SEEEDUINO-XIAO-ESP32C3  MOUDLE14P-SMD-2.54-21X17.8MM                       138.8800  -131.1655  -90.0000  top
+mouse-bite-2mm-slot  VAL**                          mouse-bite-2mm-slot-langer                         142.9960  -117.7830    0.0000  top
+## End

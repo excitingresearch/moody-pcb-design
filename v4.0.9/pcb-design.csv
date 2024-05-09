@@ -1,0 +1,13 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"YAG_CC0402_YAG";1;"CC0402ZRY5V8BB104";;;
+2;"R1,R2";"RC0402N_YAG";2;"RC0402FR-0710KL";;;
+3;"R3";"RC0402N_YAG";1;"RC0402JR-07560RL";;;
+4;"D2";"LED_WS2812B-Mini_PLCC4_3.5x3.5mm";1;"SK6812";;;
+5;"U3";"PinHeader_1x03_P1.5mm_Vertical";1;"TSIC206-TO92";;;
+6;"J2";"JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal";1;"SM04B-SRSS-TBLFSN";;;
+7;"U2";"SWITCH_11MA1QS1";1;"OS102011MA1QS1";;;
+8;"J1";"Breakout_conn";1;"SM04B-SRSS-TBLFSN";;;
+9;"U1";"battery-xiao-esp32c3";1;"~";;;
+10;"U4";"MOUDLE14P-SMD-2.54-21X17.8MM";1;"MOUDLE-SEEEDUINO-XIAO-ESP32C3";;;
+11;"mouse-bite-2mm-slot";"mouse-bite-2mm-slot-langer";1;"VAL**";;;
+12;"U5";"TestPoint_2Pads_Pitch2.54mm_Drill0.8mm";1;"~";;;
