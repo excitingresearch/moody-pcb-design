@@ -112,14 +112,14 @@
 		(at 152.646 124.433 -90)
 		(tags "CC0402ZRY5V8BB104 ")
 		(property "Reference" "C1"
-			(at 0 0 -90)
+			(at -0.025 -1.075 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "84feabe5-117e-410c-9d31-d1f745dab66c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -399,14 +399,14 @@
 		(at 148.896 123.683)
 		(tags "RC0402FR-0710KL ")
 		(property "Reference" "R1"
-			(at 3.77 0.04 0)
+			(at 1.875 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2974aa94-bbeb-4adb-98e7-9b6c2e74a5c7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -3550,14 +3550,14 @@
 		(at 148.996 125.983)
 		(tags "RC0402FR-0710KL ")
 		(property "Reference" "R2"
-			(at 3.77 0.04 0)
+			(at 1.675 0.05 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e29f0291-4df6-47cc-8e27-d490e94a4092")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
