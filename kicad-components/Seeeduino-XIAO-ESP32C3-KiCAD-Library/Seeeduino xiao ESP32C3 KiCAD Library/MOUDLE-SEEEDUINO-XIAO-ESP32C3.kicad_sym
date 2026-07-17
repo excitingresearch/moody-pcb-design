@@ -87,7 +87,7 @@
         (pts (xy 21.59 11.43) (xy 20.32 11.43)) (stroke (width 0.1524))
       )
       (pin bidirectional line (at -25.4 11.43 0) (length 2.54)
-        (name "PA02_A0_D0"
+        (name "GPIO2_A0_D0"
           (effects (font (size 1.016 1.016)))
         )
         (number "1"
@@ -95,7 +95,7 @@
         )
       )
       (pin bidirectional line (at -25.4 7.62 0) (length 2.54)
-        (name "PA4_A1_D1"
+        (name "GPIO3_A1_D1"
           (effects (font (size 1.016 1.016)))
         )
         (number "2"
@@ -103,7 +103,7 @@
         )
       )
       (pin bidirectional line (at -25.4 3.81 0) (length 2.54)
-        (name "PA10_A2_D2"
+        (name "GPIO4_A2_D2"
           (effects (font (size 1.016 1.016)))
         )
         (number "3"
@@ -111,7 +111,7 @@
         )
       )
       (pin bidirectional line (at -25.4 0.0 0) (length 2.54)
-        (name "PA11_A3_D3"
+        (name "GPIO5_A3_D3"
           (effects (font (size 1.016 1.016)))
         )
         (number "4"
@@ -119,7 +119,7 @@
         )
       )
       (pin bidirectional line (at -25.4 -3.81 0) (length 2.54)
-        (name "PA8_A4_D4_SDA"
+        (name "GPIO6_D4_SDA"
           (effects (font (size 1.016 1.016)))
         )
         (number "5"
@@ -127,7 +127,7 @@
         )
       )
       (pin bidirectional line (at -25.4 -7.62 0) (length 2.54)
-        (name "PA9_A5_D5_SCL"
+        (name "GPIO7_D5_SCL"
           (effects (font (size 1.016 1.016)))
         )
         (number "6"
@@ -135,7 +135,7 @@
         )
       )
       (pin bidirectional line (at -25.4 -11.43 0) (length 2.54)
-        (name "PB08_A6_D6_TX"
+        (name "GPIO21_D6_TX"
           (effects (font (size 1.016 1.016)))
         )
         (number "7"
@@ -143,7 +143,7 @@
         )
       )
       (pin bidirectional line (at 24.13 -11.43 180.0) (length 2.54)
-        (name "PB09_A7_D7_RX"
+        (name "GPIO20_D7_RX"
           (effects (font (size 1.016 1.016)))
         )
         (number "8"
@@ -151,7 +151,7 @@
         )
       )
       (pin bidirectional line (at 24.13 -7.62 180.0) (length 2.54)
-        (name "PA7_A8_D8_SCK"
+        (name "GPIO8_D8_SCK"
           (effects (font (size 1.016 1.016)))
         )
         (number "9"
@@ -159,7 +159,7 @@
         )
       )
       (pin bidirectional line (at 24.13 -3.81 180.0) (length 2.54)
-        (name "PA5_A9_D9_MISO"
+        (name "GPIO9_D9_MISO"
           (effects (font (size 1.016 1.016)))
         )
         (number "10"
@@ -167,7 +167,7 @@
         )
       )
       (pin bidirectional line (at 24.13 0.0 180.0) (length 2.54)
-        (name "PA6_A10_D10_MOSI"
+        (name "GPIO10_D10_MOSI"
           (effects (font (size 1.016 1.016)))
         )
         (number "11"
