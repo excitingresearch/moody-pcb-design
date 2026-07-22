@@ -1,0 +1,6 @@
+"Comment","Designator","Footprint","LCSC Part #","Manufacturer Part Number"
+"100nF 25V X7R +/-5%","C1","0402","C301928","0402B104J250NT"
+"JST SH 6-pin 1mm right-angle","J2","SMD P=1mm 1x6 right-angle","C160405","SM06B-SRSS-TB(LF)(SN)"
+"10kOhm +/-1% 62.5mW","R1,R2","0402","C25744","0402WGF1002TCE"
+"SPDT right-angle slide switch","U2","Through-hole","C221530","OS102011MA1QS1"
+"Seeed Studio XIAO ESP32C3","U4","LCC-14 castellated module","C19189385","XIAO ESP32C3"
