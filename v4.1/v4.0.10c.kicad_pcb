@@ -3638,7 +3638,7 @@
 		(path "/da7ff419-25d5-481a-ab2e-2d9644e16991")
 		(sheetname "/")
 		(sheetfile "pcb-design.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.75 -1.7)

@@ -5711,7 +5711,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da7ff419-25d5-481a-ab2e-2d9644e16991")
 		(property "Reference" "U3"
 			(at 154.94 37.338 0)
