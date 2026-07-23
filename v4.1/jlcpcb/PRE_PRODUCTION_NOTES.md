@@ -9,13 +9,15 @@ Sources:
 - PCB: `../v4.0.10c_SK6812.kicad_pcb`
 - Schematic: `../v4.0.10c.kicad_sch`
 - KiCad CLI: 10.0.0
-- JLCPCB BOM: `moody-v4.1_BOM.csv`
-- JLCPCB CPL: `moody-v4.1_CPL.csv`
+- Economic/hand-U2 BOM: `moody-v4.1_BOM.csv`
+- Economic/hand-U2 CPL: `moody-v4.1_CPL.csv`
+- Standard/wave-U2 BOM: `moody-v4.1_STANDARD_WAVE_BOM.csv`
+- Standard/wave-U2 CPL: `moody-v4.1_STANDARD_WAVE_CPL.csv`
 
 The two PCB files in `v4.1/` were byte-identical when these files were
 generated.
 
-## Factory assembly scope
+## Economic PCBA with hand-assembled U2
 
 The BOM and CPL contain exactly the same eight factory-fitted references:
 
@@ -44,9 +46,21 @@ selections with footprint-compatible JLCPCB Basic parts.
   normally shipped loose with an order.
 - Separate purchase list: `moody-v4.1_HAND_ASSEMBLY.csv`.
 
+## Standard PCBA with wave-soldered U2
+
+- Upload `moody-v4.1_STANDARD_WAVE_BOM.csv` together with
+  `moody-v4.1_STANDARD_WAVE_CPL.csv`.
+- This pair contains nine factory-fitted references: `C1`, `D1`, `D2`, `J2`,
+  `R1`, `R2`, `R3`, `U2`, and `U4`.
+- `U2` is `C221530` / `OS102011MA1QS1` and requires JLCPCB Standard PCBA wave
+  soldering.
+- The KiCad source marks U2 DNP for the default Economic variant. The Standard
+  wave-solder upload pair intentionally includes U2; confirm that JLCPCB
+  selects it during component matching.
+
 ## Not placed by JLCPCB
 
-- `U2`: separately supplied hand-assembly part.
+- `U2`: not placed only in the Economic/hand-U2 variant.
 - `U3`: left unpopulated. The intended TSIC 206 TO92 is not stocked as a
   JLCPCB/LCSC assembly part. Its physical TO-92 pinout is GND, Signal, VDD,
   while the PCB pad nets are Signal, 3.3 V, GND. An analog sensor family such
@@ -83,12 +97,17 @@ selections with footprint-compatible JLCPCB Basic parts.
 
 1. Fix or formally resolve the PCB short and all ERC/DRC errors before
    releasing Gerbers.
-2. Use Economic PCBA; `U2` is DNP and will be hand-soldered after delivery.
-3. Upload the BOM and CPL together. Their reference sets are identical.
+2. Choose one matching BOM/CPL pair:
+   - Economic PCBA: `moody-v4.1_BOM.csv` + `moody-v4.1_CPL.csv`; U2 is DNP.
+   - Standard PCBA: `moody-v4.1_STANDARD_WAVE_BOM.csv` +
+     `moody-v4.1_STANDARD_WAVE_CPL.csv`; JLCPCB wave-solders U2.
+3. Do not mix files between variants. Each pair has identical reference sets.
 4. Complete Global Sourcing for `U4` as Seeed Studio `113991054` and select it
    from My Parts during component matching.
 5. In JLCPCB's placement preview, verify every orientation-sensitive part,
    especially `D1`, `D2`, `J2`, and `U4`.
-6. Order `U2` separately using `moody-v4.1_HAND_ASSEMBLY.csv`.
+6. For the Economic variant, order `U2` separately using
+   `moody-v4.1_HAND_ASSEMBLY.csv`. Do not use that list for the Standard
+   wave-solder variant.
 7. Resolve D2's symbol-to-part pin mapping and decide how `U3` will be
    redesigned or fitted manually.
