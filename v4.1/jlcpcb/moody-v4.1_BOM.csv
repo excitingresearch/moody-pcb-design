@@ -5,5 +5,4 @@
 "JST SH 4-pin 1mm right-angle","J2","SMD P=1mm 1x4 right-angle","C160404","SM04B-SRSS-TB(LF)(SN)"
 "10kOhm +/-1% 125mW","R1,R2","0805","C17414","0805W8F1002T5E"
 "560Ohm +/-1% 125mW","R3","0805","C28636","0805W8F5600T5E"
-"SPDT right-angle slide switch","U2","Through-hole","C221530","OS102011MA1QS1"
-"Seeed Studio XIAO ESP32C3","U4","LCC-14 castellated module","C19189385","XIAO ESP32C3"
+"Seeed Studio XIAO ESP32C3","U4","LCC-14 castellated module","","113991054"
