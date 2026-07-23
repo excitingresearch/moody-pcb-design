@@ -13,6 +13,8 @@ Sources:
 - Economic/hand-U2 CPL: `moody-v4.1_CPL.csv`
 - Standard/wave-U2 BOM: `moody-v4.1_STANDARD_WAVE_BOM.csv`
 - Standard/wave-U2 CPL: `moody-v4.1_STANDARD_WAVE_CPL.csv`
+- Gerber archive: `moody-v4.1_GERBERS.zip`
+- Gerber manifest: `GERBER_MANIFEST.md`
 
 The two PCB files in `v4.1/` were byte-identical when these files were
 generated.

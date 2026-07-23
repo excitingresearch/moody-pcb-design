@@ -1,0 +1,31 @@
+Drill report for v4.0.10c_SK6812.kicad_pcb
+Created on 2026-07-23T16:12:42
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'v4.0.10c_SK6812-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (3 holes))
+    T2  0.400mm  0.0157"  (9 holes))
+    T3  0.700mm  0.0276"  (1 hole)
+    T4  0.750mm  0.0295"  (3 holes))
+    T5  0.750mm  0.0295"  (2 holes), castellated)
+    T6  0.800mm  0.0315"  (2 holes))
+    T7  0.900mm  0.0354"  (3 holes))
+    T8  1.000mm  0.0394"  (1 hole)
+    T9  1.500mm  0.0591"  (2 holes))
+
+    Total plated holes count 26
+
+
+Drill file 'v4.0.10c_SK6812-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.500mm  0.0197"  (14 holes))
+
+    Total unplated holes count 14
